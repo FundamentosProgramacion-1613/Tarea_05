@@ -105,7 +105,7 @@ def dividirEntre29():
     
     #Hacemos la cadena final        
     numeros="Los números de cuatro dígitos divisibles entre 29 son "+str(contador)+"y estos son:\n"+numeros                 
-    return numeros                           
+    return contador                           
 
 #Opción 7
 def hacerCiclo():
@@ -126,10 +126,8 @@ def hacerCiclo():
     multiplicacion=1
     
     #Iniciamos el segundo ciclo de operaciones
-    for numero in range(1,10):
-        if numero!=1:
-            multiplicacion*=10
-            multiplicacion+=1
+    for numero in range(9):
+        multiplicacion+=pow(10,numero)
         resultado=pow(multiplicacion,2)
         print("%d * %d = %d"%(multiplicacion,multiplicacion,resultado))       
 
