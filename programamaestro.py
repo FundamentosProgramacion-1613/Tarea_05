@@ -126,6 +126,7 @@ def hacerCiclo():
     multiplicacion=0
     #Iniciamos el segundo ciclo de operaciones
     for numero in range(9):
+        #Nota mental, POW solamente aguanta 8 números
         multiplicacion+=(10**numero)
         resultado=multiplicacion*multiplicacion
         print("%d * %d = %d"%(multiplicacion,multiplicacion,resultado))       
