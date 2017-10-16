@@ -124,6 +124,7 @@ def calcularPI():
 def main():
     aas = True
     while aas == True:
+        print("Ejecutar el ejercicio 1B despues de el  1C o viceversa causará error, porfavor reinicie el programa despues de ejecutar cualquiera de los 2")
         usuario = (input("Inserte el ejercicio que quiere ejecutar: "))
         if usuario == "1":
             usuario1 = (input("Inserte el inciso que quiere ejecutar(a,b,c,d):"))
